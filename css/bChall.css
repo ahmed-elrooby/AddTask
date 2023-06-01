@@ -1,0 +1,90 @@
+.form{
+    background-color: #ddddddc7;
+    width: 70%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.input{
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+}
+.Add{
+    color: white;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.Tasks{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto;
+    padding: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.Tasks .task{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.Tasks .task:not(:last-child){
+    margin-bottom: 15px;
+}
+.Tasks .task:hover{
+    background-color:#f7f7f7;
+}
+.Tasks .task.done{
+    opacity:0.5;
+}
+.Tasks .task .del{
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize !important;
+    background: red;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    border: 1px solid navajowhite;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
